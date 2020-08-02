@@ -18,6 +18,6 @@ const tutorials = [
 
 const titleCased = () => {
   return tutorials.map(function (tutorial) {
-    for return tutorial[0].toUpperCase() + tutorial.slice(1);
+    return tutorial[0].toUpperCase() + tutorial.slice(1);
   })
 }
